@@ -13,6 +13,7 @@ gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
 
 gem 'devise'
+gem 'aws-sdk'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -31,6 +32,7 @@ gem "jbuilder"
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
