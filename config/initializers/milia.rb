@@ -1,1 +1,1 @@
-#config.whitelist_tenant_params = [:plan]
+#config.whitelist_tenant_params = [:plan, :token]

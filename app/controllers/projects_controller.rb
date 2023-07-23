@@ -1,6 +1,7 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy, :users, :add_user]
   before_action :set_tenant, only: [:show, :edit, :update, :destroy, :new, :create, :users, :add_user]
+
   before_action :verify_tenant
 
   # GET /projects
